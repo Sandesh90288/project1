@@ -1,0 +1,297 @@
+*
+{
+    padding: 0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header
+{
+    display:flex;
+   gap: 550px;
+    height:51.174px ;
+    align-items: center;
+}
+.box1
+{
+    font-size: 14px;
+    gap: 40px;
+    display: flex;
+    outline: 2px black;
+}
+.image
+{
+    height: 14px;
+     color: aliceblue;
+   
+}
+.box2
+{
+    display: flex; 
+    gap: 15px;
+    /* padding-left:10px;
+    padding-right:10px;
+    padding-top:10;
+    padding-bottom:10; */
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:1px solid rgba(0, 0, 0, 0.309);
+}
+.box21
+{
+    color: aliceblue;
+    background-color: rgba(17, 17, 200, 0.507);
+    border-radius: 4px;
+    padding: 5px;
+}
+.box22
+{
+    color: aliceblue;
+    padding: 5px;
+    background-color: rgba(201, 24, 24, 0.533);
+
+    border-radius: 4px;
+}
+.box3
+{
+    padding: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    border:1px solid rgba(0, 0, 0, 0.309);
+    border-radius:4px ;
+}
+.d1
+{
+    height:375px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.876),rgba(0, 0, 0, 0.871));
+    color: aliceblue;
+    padding:20px;
+}
+.d2
+{
+    display: flex;
+    height: 150px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.719);
+    align-items: center;
+}
+.content
+{
+
+width: 30%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+#ans{
+    text-decoration: none;
+    color: aliceblue;
+}
+.d3{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.49);
+    display: flex;
+    padding-left:15px ;
+    padding-right:15px ;
+    gap: 20px;
+    
+    justify-content: center;
+}
+.content{
+   /* padding-left:10px ; */
+    width: 300px;
+    align-items: center;
+    
+}
+
+.images
+{  
+   background-color: aliceblue;
+    padding: 10px;
+    
+    width:230px;
+}
+.p1
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.table{
+    height: 600px;
+    background-image: url(https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149146010.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px ;
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.t1 
+{  padding-left: 20px;
+    background-color: aliceblue;
+    width: 305px;
+    height: 500px;
+    line-height: 2;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.t2
+{
+    height: 500px;
+    padding-left: 20px;
+    line-height: 2;
+    background-color: aliceblue;
+    width:305px;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.t3
+{   line-height: 2;
+    height: 500px;
+    background-color: aliceblue;
+    width: 330px;
+    padding-left: 20px;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.para1
+{
+    padding-top: 20px;
+}
+.para2
+{
+    padding: 20px;
+    padding-left: 5px;
+}
+.images1
+{
+width: 275px;
+padding-bottom:20px;
+}
+.checklist
+{
+    display: block;
+   
+}
+.li1
+{
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid black;
+    
+    list-style:disc;
+}
+#li11
+{
+    padding-top: 0;
+}
+.li2
+{
+    height: 110px;
+    border-bottom:1px solid black ;
+    display: flex;
+}
+.ul11
+{
+    display: block;
+}
+.div1
+{
+    padding-top:20px ;
+    width:100px
+}
+.div2
+{
+    padding-left: 10px;
+    padding-top:20px ;
+}
+.t1:hover
+{
+    /* to make it big when cursor is moved on it(method 1) width: 300px;
+    height: 300px; */
+    /* method 2 */
+    transform: scale(1.1);
+}
+.t2:hover
+{
+    /* to make it big when cursor is moved on it(method 1) width: 300px;
+    height: 300px; */
+    /* method 2 */
+    transform: scale(1.1);
+}
+.t3:hover
+{
+    /* to make it big when cursor is moved on it(method 1) width: 300px;
+    height: 300px; */
+    /* method 2 */
+    transform: scale(1.1);
+}
+.last
+{
+     padding-left: 30px;
+    height: 300px;
+    padding-top: 40px;
+    background-image: linear-gradient(rgba(4, 4, 21, 0.753) ,rgba(0, 0, 20, 0.531) );
+    display: flex;
+}
+.links
+{
+    width: 600px;
+   display: flex; 
+   gap: 20px;
+   line-height: 1.5;
+   display: block;
+}
+.ulx{
+    display: block;
+}
+.outerd
+{
+    display: flex;
+    gap: 30px;
+}
+.innerdiv
+{
+    line-height: 1.5;
+}
+.lix
+{
+    padding-top:20px;
+    
+}
+ 
+
+.anchersa
+{
+    text-decoration: underline;
+   
+}
+.anchersa:link,:visited
+{
+    color: blue;
+}
+.anchersa:hover
+{
+    color: rgba(255, 0, 0, 0.54);
+}
+.anchersa:active
+{
+    color: black;
+}
+.dx2
+{
+    width: 400px;
+}
+.dxx2
+{
+    color: aliceblue;
+    padding-top:20px ;
+}
+.head4
+{
+   padding-bottom: 5px;
+   padding-top: 5px;
+}
